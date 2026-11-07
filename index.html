@@ -56,6 +56,41 @@
 <div class="card"><p>The historical Jeep remedy involved a booster pump mounted near the tank, an additional fuel filter and revised feed line, and electric control connected to the engine-start/run safety arrangement. The specific kit and installation must be evaluated for availability and compatibility with the actual engine and fuel-system modifications now present.</p>
 <div class="flow"><span class="node">Fuel tank</span><span class="arrow">→</span><span class="node">Filter + low-pressure booster (near tank)</span><span class="arrow">→</span><span class="node">Line mostly under positive pressure</span><span class="arrow">→</span><span class="node">Original mechanical pump</span><span class="arrow">→</span><span class="node">3-port filter &amp; carb</span></div>
 <p>The diagram is conceptual, not a factory wiring or installation schematic. Consult the linked bulletin for the exact historical installation.</p></div>
+
+<section id="booster-kit-parts">
+<h2>Finding the original Jeep vapor-lock booster kit (P/N 83506056)</h2>
+<div class="card">
+<p><strong>Jeep Fuel Pump Booster Kit — P/N 83506056</strong> is the factory kit cited in Jeep Technical Service Bulletin <strong>18-53-89 (April 17, 1989)</strong> for 1987–1989 Wrangler YJ vehicles with the original 4.2L/258 six-cylinder. The bulletin is the best engineering reference for the historical modification.</p>
+<p><strong>Availability:</strong> No current seller of a complete original kit has been verified. Treat the part number as a search target for NOS (new old stock) or used inventory, not as an item known to be in stock.</p>
+<ul>
+<li><a target="_blank" rel="noopener noreferrer" href="https://charm.li/Jeep/1989/Wrangler%20L6-258%204.2L%20VIN%20T%202-bbl/Repair%20and%20Diagnosis/Technical%20Service%20Bulletins/Customer%20Interest/Fuel%20System%20-%20Engine%20Vapor%20Lock/">Original TSB 18-53-89: kit details, diagrams and installation procedure ↗</a></li>
+<li><a target="_blank" rel="noopener noreferrer" href="https://www.ebay.com/sch/i.html?_nkw=Jeep+83506056">Search eBay for Jeep 83506056 NOS/used kits ↗</a> (live search, availability varies)</li>
+</ul>
+<p>The original remedy included more than a pump: installation hardware, additional filtration/modified fuel routing and safety-oriented electrical control. Do not assume a universal pump recreates the complete kit.</p>
+</div>
+<h2>Modern pump candidates for a custom retrofit</h2>
+<p>These are <strong>candidate components, not exact replacements for P/N 83506056</strong>. Product specifications, current availability and actual compatibility must be confirmed with the manufacturer, especially because this Jeep's engine identity and carburetor may have changed.</p>
+<div class="card">
+<table><thead><tr><th>Pump</th><th>Published nominal rating</th><th>Source / notes</th></tr></thead><tbody>
+<tr><td><strong>Carter P4070</strong><br>12V universal rotary-vane pump</td><td>Approximately 3–7 PSI</td><td><a target="_blank" rel="noopener noreferrer" href="https://carterengineered.com/electric-fuel-pump-p4070">Carter product specifications ↗</a><br><a target="_blank" rel="noopener noreferrer" href="https://www.rockauto.com/en/moreinfo.php?pk=297054">RockAuto listing ↗</a><br>Potential retrofit component; confirm pressure and unrestricted flow in the intended configuration.</td></tr>
+<tr><td><strong>Holley Mighty Mite 12-426</strong></td><td>Approximately 1.5–4 PSI / 25 GPH</td><td><a target="_blank" rel="noopener noreferrer" href="https://www.holley.com/products/fuel_systems/fuel_pumps_regulators_and_filters/fuel_pumps/carbureted_fuel_pumps/carbureted_electric_fuel_pumps/parts/12-426">Holley manufacturer listing ↗</a><br>Lower-pressure candidate; check adequacy under load and behavior in series with mechanical pump.</td></tr>
+<tr><td><strong>Holley Mighty Mite 12-427</strong></td><td>Approximately 4–7 PSI / 32 GPH</td><td><a target="_blank" rel="noopener noreferrer" href="https://www.holley.com/brands/holley/products/fuel_systems/fuel_pumps_regulators_and_filters/fuel_pumps/carbureted_fuel_pumps/">Holley carbureted pump range ↗</a><br>Another candidate, subject to carburetor pressure limits and proper system design.</td></tr>
+</tbody></table>
+<p><strong>Prices:</strong> Deliberately omitted because seller pricing and stock fluctuate. Compare current manufacturer data and listings before purchase.</p>
+</div>
+<h2>What a properly engineered booster retrofit requires</h2>
+<div class="card"><ol>
+<li><strong>Diagnose first:</strong> Verify loss of delivery pressure when hot, check pump inlet restriction and confirm proper ignition spark during the stall. A booster is not a substitute for fixing a crushed hose, blocked pickup or failing ignition system.</li>
+<li><strong>Locate pump near the fuel tank:</strong> Minimize the low-pressure suction length, follow the pump's mounting orientation and filtration requirements, and shield it from road hazards and heat.</li>
+<li><strong>Match carburetor and existing mechanical pump:</strong> Check pressure and flow specifications with the engine running in the proposed series configuration. Add an appropriate regulator only if required by the measured pressure and manufacturer instructions.</li>
+<li><strong>Keep the return/vapor circuit:</strong> Preserve the functioning three-port filter and the unobstructed vapor return unless a competent mechanic designs and validates a specific alternative.</li>
+<li><strong>Use safe wiring:</strong> Proper fused wiring, relay/engine-run control and automatic shutoff if the engine stalls. The factory bulletin's oil-pressure/starter control is useful historical guidance. Do not power the pump continuously from an unswitched circuit.</li>
+<li><strong>Test and document:</strong> Verify no leaks, safe shutoff, correct pressure at idle and under load, and reliable hot operation before returning the vehicle to routine use.</li>
+</ol>
+<div class="warn"><strong>Important:</strong> Installing an aftermarket electric pump is a fuel-system modification with fire and crash risks. Have a qualified mechanic design and inspect the installation. This section is a component-selection checklist, not a ready-to-wire retrofit schematic.</div>
+</div>
+</section>
+
 <h2>Decision table: which fault does the symptom suggest?</h2>
 <div class="card"><table><thead><tr><th>Observation</th><th>Prioritize checking</th></tr></thead><tbody>
 <tr><td>Runs cold, fails hot, restarts after cooling</td><td>Vapor lock <em>or</em> heat-sensitive ignition/pump fault; measure fuel delivery and spark at the failure</td></tr>
