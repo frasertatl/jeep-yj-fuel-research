@@ -26,6 +26,69 @@
 <h3>3. Fuel lines and return-line drawings</h3><p><a target="_blank" rel="noopener noreferrer" href="https://www.moparpartsgiant.com/parts-list/1987-jeep-wrangler/fuel/fuel_lines.html">Open fuel-line parts diagram ↗</a></p>
 <h3>4. Three-port filter orientation instructions</h3><p>Supplemental 1989 4.2L service reference; confirm against the 1987 manual.</p><p><a target="_blank" rel="noopener noreferrer" href="https://charm.li/Jeep/1989/Wrangler%20L6-258%204.2L%20VIN%20M%202-bbl/Repair%20and%20Diagnosis/Powertrain%20Management/Tune-up%20and%20Engine%20Performance%20Checks/Fuel%20Filter/Service%20and%20Repair/">Open fuel filter procedure ↗</a></p>
 <h3>5. Printed 1987–1988 workshop manual</h3><p><a target="_blank" rel="noopener noreferrer" href="https://www.detroitironis.com/1987-1988-jeep-wrangler-yj-service-manual-print.html">View printed M.R.279 manual ↗</a></p></div>
+
+<section id="vapor-lock-deep-dive">
+<h2>Deep dive: why vapor lock happens on the 4.2L YJ</h2>
+<div class="card"><h3>What's happening physically?</h3>
+<p><strong>Vapor lock</strong> is fuel vaporizing inside the delivery system before reaching the carburetor. A mechanical diaphragm pump is most effective at moving <em>liquid</em> gasoline. Vapor pockets interrupt intake and delivery, potentially causing stumbling, loss of power, stalling, or a hot no-start. This is especially troublesome on the <strong>low-pressure suction side</strong> of an engine-mounted pump.</p>
+<div class="flow"><span class="node">Engine &amp; exhaust heat</span><span class="arrow">+</span><span class="node">Pump inlet suction</span><span class="arrow">+</span><span class="node">Lower ambient pressure</span><span class="arrow">→</span><span class="node">Fuel vapor bubbles</span><span class="arrow">→</span><span class="node">Starvation / stall</span></div>
+<p><b>Heat:</b> Under-hood fuel lines, the mechanical pump and carburetor absorb radiant and conducted heat from the engine, manifolds and exhaust. After shutdown, loss of airflow produces <em>heat soak</em>; temperatures in some components may continue rising even with the engine off.</p>
+<p><b>Suction:</b> The engine-mounted pump must draw fuel from the rear tank. Pressure drops as it pulls through long lines, bends, an old pickup sock, or a softened hose. Lower absolute pressure makes gasoline more likely to boil at a given temperature.</p>
+<p><b>Altitude &amp; fuel blend:</b> Higher elevations have lower atmospheric pressure. Gasoline blends also vary in volatility, including seasonally. A combination of heat, altitude and restrictive plumbing may create a problem that vanishes in cool conditions.</p></div>
+<h2>Vapor lock versus carburetor percolation</h2>
+<div class="card"><table><thead><tr><th>Condition</th><th>Where it happens</th><th>Typical pattern</th><th>Primary remedies</th></tr></thead><tbody>
+<tr><td><strong>Delivery-system vapor lock</strong></td><td>Supply line and/or mechanical pump, commonly on suction side</td><td>Engine stumbles or stalls hot; pressure and delivery fall; may restart after cooling</td><td>Reduce fuel-line heat and suction restriction; restore return circuit; consider OEM-style booster after testing</td></tr>
+<tr><td><strong>Carburetor percolation</strong></td><td>Fuel boils inside carburetor bowl after heat soak</td><td>Hard hot restart, rich/flooded behavior or fuel odor after shutdown</td><td>Inspect carburetor heat shielding, compatible insulating spacer, float level and fuel pressure</td></tr>
+<tr><td><strong>Non-fuel hot failure</strong></td><td>Ignition, coil, pickup or module</td><td>Dies hot, restarts after cooling, but fuel delivery may be normal</td><td>Check ignition spark at time of failure before attributing everything to fuel</td></tr>
+</tbody></table></div>
+<h2>Prevention &amp; repair options — in recommended order</h2>
+<div class="card">
+<h3>1. Restore the correct three-port filter and fuel return</h3><p>Confirm the engine-bay filter has the proper carburetor feed and small return/vapor connection, with the return line open to the tank. The small vapor-return nipple is installed in the upward orientation described in service material for this 4.2L layout. Check arrow direction and do not substitute a two-port filter without understanding the original return system. A blocked or misrouted return can worsen heat-related delivery problems.</p>
+<h3>2. Inspect fuel hoses and remove suction restrictions</h3><p>Look for old rubber lines internally delaminating or collapsing, particularly at the mechanical pump inlet and tank connections. Check the pickup strainer, kinked metal lines, incorrect hose size and tank venting. A tank flushed years ago can still develop contamination or strainer problems. Use only fuel-rated replacement hoses and proper routing.</p>
+<h3>3. Reduce radiant exhaust heat</h3><p>Verify adequate clearance from the exhaust manifold and pipe to fuel hoses and lines. Restore metal heat shields or clamps where missing, and use approved automotive heat-protective sleeves/shielding where appropriate. Do not wrap fuel lines in absorbent materials or secure them directly against exhaust components.</p>
+<h3>4. Reduce carburetor heat soak</h3><p>If the failure occurs mainly shortly after shutdown, evaluate a compatible phenolic/insulating carburetor spacer, original gaskets and heat shields. Check throttle linkage, hood clearance and vacuum ports before adding a spacer. This targets bowl percolation more than suction-side vapor lock.</p>
+<h3>5. Confirm normal engine cooling</h3><p>Check radiator airflow, fan/shroud, thermostat, operating temperature, ignition timing and any abnormal exhaust heat. These are supporting measures, not substitutes for diagnosing low fuel pressure.</p>
+<h3>6. Consider the factory-recognized booster-pump solution if vapor lock is proven</h3><p><b>Jeep TSB 18-53-89, dated April 17, 1989</b>, addresses 1987–1989 4.2L YJ engine vapor lock with an auxiliary electric pump near the tank and revised fuel plumbing. By moving fuel under <em>positive pressure</em> over more of its journey, a booster reduces the long hot suction run that encourages vapor formation. The bulletin's arrangement retains the original mechanical-pump concept; this is not a mandate to replace it with an arbitrary high-pressure electric pump.</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://charm.li/Jeep/1989/Wrangler%20L6-258%204.2L%20VIN%20T%202-bbl/Repair%20and%20Diagnosis/Technical%20Service%20Bulletins/Customer%20Interest/Fuel%20System%20-%20Engine%20Vapor%20Lock/">Open original TSB diagrams and instructions ↗</a></p>
+<div class="warn"><strong>Electrical and fuel safety:</strong> Any electric-pump conversion needs carburetor-compatible delivery pressure, fuel-rated components, fused and protected wiring, automatic shutdown when the engine stalls, and secure mounting away from exhaust and impact hazards. Have the work designed/checked by a qualified automotive technician. Never feed a carburetor from an unregulated fuel-injection-pressure pump.</div>
+</div>
+<h2>Factory bulletin: what the booster kit changed</h2>
+<div class="card"><p>The historical Jeep remedy involved a booster pump mounted near the tank, an additional fuel filter and revised feed line, and electric control connected to the engine-start/run safety arrangement. The specific kit and installation must be evaluated for availability and compatibility with the actual engine and fuel-system modifications now present.</p>
+<div class="flow"><span class="node">Fuel tank</span><span class="arrow">→</span><span class="node">Filter + low-pressure booster (near tank)</span><span class="arrow">→</span><span class="node">Line mostly under positive pressure</span><span class="arrow">→</span><span class="node">Original mechanical pump</span><span class="arrow">→</span><span class="node">3-port filter &amp; carb</span></div>
+<p>The diagram is conceptual, not a factory wiring or installation schematic. Consult the linked bulletin for the exact historical installation.</p></div>
+<h2>Decision table: which fault does the symptom suggest?</h2>
+<div class="card"><table><thead><tr><th>Observation</th><th>Prioritize checking</th></tr></thead><tbody>
+<tr><td>Runs cold, fails hot, restarts after cooling</td><td>Vapor lock <em>or</em> heat-sensitive ignition/pump fault; measure fuel delivery and spark at the failure</td></tr>
+<tr><td>Fails under load, including when cold</td><td>Supply restriction, collapsing hose, clogged filter, weak pump, float-bowl starvation</td></tr>
+<tr><td>Hard restart after 5–20 minutes parked hot</td><td>Carburetor bowl percolation, flooding, heat soak</td></tr>
+<tr><td>Fails after extended driving, recovers after rest</td><td>Tank vent vacuum, heat-related vapor, pickup restriction</td></tr>
+<tr><td>Fuel pressure falls while pump inlet vacuum increases</td><td>Restriction upstream of the pump: tank sock, supply hose, metal line or vent</td></tr>
+<tr><td>Fuel pressure falls with no excessive inlet restriction</td><td>Weak pump, cam/lever mismatch or local vapor formation; confirm by testing</td></tr>
+</tbody></table></div>
+<h2>Controlled cold-to-hot test plan</h2>
+<ol>
+<li>Document ambient temperature, altitude, engine temperature, fuel level, road load and time to failure. Note whether failure happens while moving or primarily on hot restart.</li>
+<li>Inspect fuel-return plumbing, engine-bay filter, hoses and tank vent first. Check whether the installed pump matches the removed pump, including its lever and port layout.</li>
+<li>Have a technician install a <b>properly rated low-pressure fuel gauge</b> and check pump pressure and delivered volume using the correct factory procedure, both cold and when the symptom appears. The engine and pump identity remain unverified; do not assume a single universal PSI specification.</li>
+<li>Measure inlet restriction using a suitable low-range vacuum gauge and approved setup. Rising vacuum on the suction side as fuel pressure falls is evidence of an upstream restriction, not definitive vapor lock.</li>
+<li>Compare fuel-line and pump temperatures to symptom onset using a safe non-contact or properly positioned temperature measurement. Avoid exposed fuel during hot-engine testing.</li>
+<li>During a no-start event, test ignition spark safely as well. Heat-triggered ignition failures can imitate fuel starvation.</li>
+<li>After identifying the cause, choose the smallest effective remedy; pursue a booster only when evidence supports heat-related fuel delivery trouble.</li>
+</ol>
+<div class="warn"><strong>Do not use an open fuel container, loosen fuel lines on a hot running engine or defeat automatic fuel-pump shutdown for testing.</strong> If the Jeep stalls on the road, stop in a safe location and allow a qualified mechanic to reproduce the problem in controlled conditions.</div>
+<h2>Vapor-lock focused shop worksheet</h2>
+<div class="card"><p>Ambient temp / elevation: _______________________________</p>
+<p>Engine cold / fully warm / heat soak: _______________________________</p>
+<p>Failure: driving / acceleration / idle / hot restart / other: __________________</p>
+<p>Fuel level and time until symptoms: _______________________________</p>
+<p>Filter three-port &amp; return verified? __________ Return line clear? __________</p>
+<p>Visible exhaust-line clearances and protective shields: _____________________</p>
+<p>Pressure cold: __________ Pressure when faulting: __________</p>
+<p>Inlet vacuum cold: __________ During fault: __________</p>
+<p>Ignition spark during failure: __________ Engine ID confirmed: __________</p>
+<p>Recommended repair based on measurements: _______________________________</p>
+<button onclick="window.print()">Print / Save full guide as PDF</button></div>
+</section>
 <h2>Mechanic's worksheet</h2><div class="card"><p>Outdoor temperature: ____________________ Engine hot / cold: ____________________</p><p>Fuel level: ____________________ Time to failure: ____________________</p><p>Stall occurs at idle / acceleration / uphill / after hot restart: ____________________</p><p>Fuel pressure during failure: ____________________ Flow test: ____________________</p><p>Inlet vacuum/restriction: ____________________ Filter: ____________________</p><p>Vent/return routing: ____________________ Pump lever and ports match? ____________________</p><p>Engine casting identification: ____________________ Additional observations: ____________________</p><button onclick="window.print()">Print / Save as PDF</button></div>
 <p><strong>Bottom line:</strong> Start with the filter and short fuel hoses, then measure pump output and inlet restriction while the fault is present. Give vapor lock special consideration if symptoms correlate with Arizona heat. Verify engine identity before treating factory 4.2L details as definitive.</p></main>
 <footer><div class="wrap">Prepared November 7, 2026. Independent informational guide linking to third-party service archives and catalogs. Factory specifications and a qualified mechanic take precedence.</div></footer>
